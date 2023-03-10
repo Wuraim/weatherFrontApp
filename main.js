@@ -6,5 +6,5 @@ const container = document.querySelector('#weather-container')
 addButton.addEventListener('click', event => {
     const newWeatherCard = document.createElement("div");
     newWeatherCard.classList.add('weather-card');
-    container.appendChild(newWeatherCard);
+    container.insertBefore(newWeatherCard, addButton);
 });
