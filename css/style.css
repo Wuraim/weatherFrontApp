@@ -37,8 +37,8 @@ body{
 }
 
 .adding:hover{
-    transform : translateY(-10px) translateX(-10px);
     box-shadow : 5px 5px black;
+    transform : translateY(-10px) translateX(-10px);
 }
 
 .adding > span.icon{
