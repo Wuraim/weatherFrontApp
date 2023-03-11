@@ -27,6 +27,7 @@ body{
     border: 10px solid #f96d00;
     margin : 15px;
     padding : 15px;
+    flex-direction: row;
 }
 
 .adding{
@@ -66,4 +67,25 @@ body{
     #weather-container{
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.closeButton{
+    border : 1px #f2f2f2 solid;
+    border-radius : 25%;
+    transition: all 0.2s;
+}
+
+.closeButton:active{
+    transform : translateY(3px) translateX(3px);
+}
+
+.headerWeatherCard{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bodyWeatherCard{
+    width : 100%;
 }
